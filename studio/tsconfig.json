@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "lib": ["esnext", "dom"],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "strict": true,
+    "jsx": "react",
+    "allowJs": true,
+    "sourceMap": true,
+    "inlineSources": true,
+    "types": ["node"],
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true
+  },
+  "files": [
+    "Astronaut.ts",
+    "Cargo.ts",
+    "Payload.ts",
+    "Rocket.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
